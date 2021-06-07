@@ -1,0 +1,14 @@
+
+.nostalgia__container {
+  width: 100vw;
+  background: url('../../assets/background/img1.jpg') fixed;
+  background-size: cover;
+  background-repeat:no-repeat ;
+}
+
+.nostalgia__container-content {
+  flex-direction: column;
+  display: flex;
+  margin: 0 auto;
+  width: 76%;
+}

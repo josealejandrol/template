@@ -1,0 +1,48 @@
+
+.main__content {
+  background-color: $yellow;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.main__content h1 {
+  color: $white;
+  font-size: 45px;
+  text-align: center;
+  // margin: 0;
+}
+
+.main__content p {
+  color: $black;
+  font-size: 22px;
+  text-align: center;
+  // margin: 0;
+}
+
+.main__content-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.main__content-button {
+  cursor: pointer;
+  height: 40px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  background-color: $black;
+}
+
+.main__content-button p {
+  color: $white;
+  
+  &:hover {
+    color: $yellow
+  }
+}
+

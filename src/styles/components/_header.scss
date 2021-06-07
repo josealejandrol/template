@@ -1,0 +1,26 @@
+
+.header__content {
+  position: relative;
+  // background-color: lightblue;
+  height: 90px;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.header__content-brand {
+  position: absolute;
+  left: 0;
+  background-color: $yellow;
+  color: $white;
+  padding: 20px;
+  // width: 50%;
+}
+
+.header__content-item {
+  position: absolute;
+  right: 0;
+  background-color: $black;
+  color: $white;
+  padding: 10px;
+  // width: 50%;
+}
