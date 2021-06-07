@@ -2,7 +2,39 @@
 .testimonials__content {
   background-color: $yellow;
   display: flex;
+  flex-direction: column;
   height: 600px;
-  margin-top: 30px;
+  margin-top: 40px;
   width: 100%;
+}
+
+.testimonials__content-box {
+  background-color: red;
+  margin: 0 auto;
+  height: 100%;
+  width: 90%;
+}
+
+.testimonials__content-top {
+  padding-top: 40px;
+}
+
+.testimonials__content-top h1 {
+  font-size: 2.8em;
+}
+
+.testimonials__content-top p {
+  font-size: 1.2em;
+}
+
+.testimonials__content-row {
+
+}
+
+.testimonials__content-row-column1 {
+
+}
+
+.testimonials__content-row-column2 {
+
 }
