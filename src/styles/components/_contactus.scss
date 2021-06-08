@@ -1,8 +1,100 @@
 
-.contactus__content {
+.contactus__container {
   background-color: $yellow;
   display: flex;
+  align-items: center;
+  justify-content: center;
   height: 400px;
   margin-top: 30px;
   width: 100%;
+  // overflow: hidden;
+}
+
+.contactus__content {
+  // background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 93%;
+}
+
+.contactus__content-top {
+  color: $white;
+}
+
+.contactus__content-top p {
+  color: $black;
+}
+
+.contactus__content-row {
+  position: relative;
+  // background-color: aquamarine;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+
+.contactus__content-row-column1 {
+  // background-color: blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 50%;
+}
+
+.contactus__content-row-column1 h1 {
+  
+}
+
+.contactus__content-row-column2 {
+  // background-color: coral;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 50%;
+}
+
+.contactus__content-row-column2 form {
+  position: relative;
+  width: 80%;
+}
+
+.form__input {
+  height: 30px;
+  margin-bottom: 1px;
+  width: 100%;
+
+  &::placeholder {
+    color: $black;
+    padding-left: 5px;
+  }
+
+  &:focus {
+    color: gray;
+  }
+}
+
+.form__textarea {
+  height: 100px;
+  width: 100%;
+  resize: none;
+
+  &::placeholder {
+    color: $black;
+    padding-left: 5px;  
+    padding-top: 5px;  
+  }
+}
+
+.form__button {
+  position: absolute;
+  background-color: $white;
+  border: none;
+  padding: 5px 10px;
+  right: 0;
 }

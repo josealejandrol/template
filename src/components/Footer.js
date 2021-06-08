@@ -20,7 +20,7 @@ export const Footer = () => {
             Get the latest news and updates with the Nostalgia newsletter. Join
             our monthly email newsletter. It's fast and easy.
           </p>
-          <div className="row">
+          <div className="footer__content-column2-row">
             <input type="text" placeholder="Your e-mail" />
             <button>Send</button>
           </div>

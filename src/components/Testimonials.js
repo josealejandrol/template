@@ -1,3 +1,5 @@
+import { TestimonialItem } from "./TestimonialItem"
+
 export const Testimonials = () => {
   return (
     <div className="testimonials__content">
@@ -11,8 +13,14 @@ export const Testimonials = () => {
           </p>
         </div>
         <div className="testimonials__content-row">
-          <div className="testimonials__content-row-column1"></div>
-          <div className="testimonials__content-row-column2"></div>
+          <div className="testimonials__content-row-column1">
+            <TestimonialItem />
+            <TestimonialItem />
+          </div>
+          <div className="testimonials__content-row-column2">
+            <TestimonialItem />
+            <TestimonialItem />
+          </div>
         </div>
       </div>
     </div>
